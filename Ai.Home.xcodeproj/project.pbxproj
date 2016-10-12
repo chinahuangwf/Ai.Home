@@ -76,6 +76,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EBE0DCB1DADE21800C03AB7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0EF8B4B71DA56DAF005643CA /* LaunchScreen.storyboard */,
+				0EF8B4AF1DA56DAF005643CA /* Main.storyboard */,
+				0EF8B4B51DA56DAF005643CA /* Assets.xcassets */,
+				0EF8B4BA1DA56DAF005643CA /* Info.plist */,
+				0EF8B4B21DA56DAF005643CA /* Ai_Home.xcdatamodeld */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		0EBE0DCC1DADE23E00C03AB7 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				0EBE0DCF1DADE4EF00C03AB7 /* Framework */,
+				0EBE0DCE1DADE4E500C03AB7 /* UIViewController */,
+				0EBE0DCD1DADE4DB00C03AB7 /* Delegate */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		0EBE0DCD1DADE4DB00C03AB7 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0EF8B4AB1DA56DAF005643CA /* AppDelegate.swift */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		0EBE0DCE1DADE4E500C03AB7 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0EF8B4AD1DA56DAF005643CA /* ViewController.swift */,
+			);
+			name = UIViewController;
+			sourceTree = "<group>";
+		};
+		0EBE0DCF1DADE4EF00C03AB7 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
 		0EF8B49F1DA56DAF005643CA = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +144,8 @@
 		0EF8B4AA1DA56DAF005643CA /* Ai.Home */ = {
 			isa = PBXGroup;
 			children = (
-				0EF8B4AB1DA56DAF005643CA /* AppDelegate.swift */,
-				0EF8B4AD1DA56DAF005643CA /* ViewController.swift */,
-				0EF8B4AF1DA56DAF005643CA /* Main.storyboard */,
-				0EF8B4B51DA56DAF005643CA /* Assets.xcassets */,
-				0EF8B4B71DA56DAF005643CA /* LaunchScreen.storyboard */,
-				0EF8B4BA1DA56DAF005643CA /* Info.plist */,
-				0EF8B4B21DA56DAF005643CA /* Ai_Home.xcdatamodeld */,
+				0EBE0DCC1DADE23E00C03AB7 /* Code */,
+				0EBE0DCB1DADE21800C03AB7 /* Resource */,
 			);
 			path = Ai.Home;
 			sourceTree = "<group>";
@@ -516,6 +556,7 @@
 				0EF8B4D51DA56DAF005643CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EF8B4D61DA56DAF005643CA /* Build configuration list for PBXNativeTarget "Ai.HomeTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +565,7 @@
 				0EF8B4D81DA56DAF005643CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EF8B4D91DA56DAF005643CA /* Build configuration list for PBXNativeTarget "Ai.HomeUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +574,7 @@
 				0EF8B4DB1DA56DAF005643CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
